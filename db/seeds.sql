@@ -7,20 +7,20 @@ VALUES
 
 INSERT INTO role (title, salary, department_id)
 VALUES
-  ('Structural Manager', 120,000.00, 1),
-  ('BE Manager', 120,000.00, 2),
-  ('Materials Manager', 120,000.00, 3),
-  ('Administrative Manager', 80,000.00, 4),
-  ('Engineer', 85,000.00, 1),
-  ('Structural Drafter', 50,000.00, 1),
-  ('Architect', 85,000.00, 2),
-  ('Roof Inspector', 60,000.00, 2),
-  ('Architectural Drafter', 50,000.00, 2),
-  ('Petrographer', 100,000.00, 3),
-  ('Lab Assistant', 50,000.00, 3),
-  ('Administrative Associate', 50,000.00, 4),
-  ('Marketing Associate', 60,000.00, 4),
-  ('Customer Service Associate', 45,000.00, 4);
+  ('Structural Manager', 120000.00, 1),
+  ('BE Manager', 120000.00, 2),
+  ('Materials Manager', 120000.00, 3),
+  ('Administrative Manager', 80000.00, 4),
+  ('Engineer', 85000.00, 1),
+  ('Structural Drafter', 50000.00, 1),
+  ('Architect', 85000.00, 2),
+  ('Roof Inspector', 60000.00, 2),
+  ('Architectural Drafter', 50000.00, 2),
+  ('Petrographer', 100000.00, 3),
+  ('Lab Assistant', 50000.00, 3),
+  ('Administrative Associate', 50000.00, 4),
+  ('Marketing Associate', 60000.00, 4),
+  ('Customer Service Associate', 45000.00, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
