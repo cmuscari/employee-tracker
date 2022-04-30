@@ -130,7 +130,7 @@ const updateEmployeeRole = () => {
         {
             type: "number",
             name: "employeeId",
-            message: "What is the id of the employee you would like to update?"
+            message: "What is the id of the employee you would like to update?",
         },
         {
             type: "number",
@@ -139,9 +139,6 @@ const updateEmployeeRole = () => {
         }
     ])
         .then(updatedEmployeeInfo => {
-
-            // add check here to see if the employee id & role id are valid id's
-            
             const sql = `UPDATE employee SET role_id = ${updatedEmployeeInfo.newRoleId} WHERE id = ${updatedEmployeeInfo.employeeId}`;
             db.query(sql, (err) => {
                 if (err) {
